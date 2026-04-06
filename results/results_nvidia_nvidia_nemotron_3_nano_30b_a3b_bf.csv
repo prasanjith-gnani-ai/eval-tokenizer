@@ -1,0 +1,24 @@
+lang_code,lang_name,script,n_docs,n_words,n_tokens,fertility,continuation_rate,bytes_per_token,unk_rate,vocab_coverage,nsl,avg_token_len,grade,model
+asm,Assamese,Assamese,1000,201352,844257,4.1929,0.9574,3.8798,0.0,0.0,1.3091,3.6445,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+ben,Bengali,Bengali,1000,222386,641774,2.8859,0.9517,5.9528,0.0,0.0,1.0789,5.6114,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+brx,Bodo,Devanagari,1000,180480,682265,3.7803,0.9291,4.7443,0.0,0.0,1.2104,4.4751,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+doi,Dogri,Devanagari,54,6775,13864,2.0463,0.6307,5.4108,0.0,0.0,1.0068,4.9362,🟡 Good,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+eng,English,Latin,1000,263744,360306,1.3661,0.3847,4.403,0.0,1.0,0.8783,3.683,🟢 Excellent,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+gom,Konkani,Devanagari,1000,225010,707664,3.145,0.916,4.6095,0.0,0.0,1.1293,4.2958,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+guj,Gujarati,Gujarati,1000,247691,877464,3.5426,0.9589,4.2641,0.0,0.0,1.3073,3.9851,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+hin,Hindi,Devanagari,1000,288123,562789,1.9533,0.729,6.6298,0.0,0.0,0.9543,6.1229,🟡 Good,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+kan,Kannada,Kannada,1000,168714,634458,3.7606,0.9618,5.6902,0.0,0.0,1.3156,5.4277,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+kas,Kashmiri,Perso-Arabic,297,59847,118461,1.9794,0.639,4.6584,0.0,0.0,0.9707,4.1629,🟡 Good,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+mai,Maithili,Devanagari,1000,246983,616340,2.4955,0.8139,4.9934,0.0,0.0,1.0865,4.5989,🟡 Good,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+mal,Malayalam,Malayalam,1000,136745,656291,4.7994,0.9853,5.5633,0.0,0.0,1.6387,5.3584,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+mar,Marathi,Devanagari,1000,216961,682192,3.1443,0.9295,5.7635,0.0,0.0,1.1741,5.4484,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+mni,Manipuri,Bengali,1000,242851,1003505,4.1322,0.919,3.9177,0.0,0.0,1.2263,3.6715,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+nep,Nepali,Devanagari,1000,201427,607090,3.0139,0.8932,5.7103,0.0,0.0,1.1921,5.3826,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+ori,Odia,Odia,1000,187103,3113854,16.6425,0.9454,1.0159,0.0,0.0,3.3576,0.9565,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+pan,Punjabi,Gurmukhi,1000,283018,880471,3.111,0.9152,4.1204,0.0,0.0,1.1634,3.8023,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+san,Sanskrit,Devanagari,1000,210223,882029,4.1957,0.7955,5.2324,0.0,0.0,1.1447,4.9977,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+sat,Santali,Ol Chiki,110,21156,261637,12.367,0.9569,1.1049,0.0,0.0,3.5575,1.0247,🔴 Poor,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+snd,Sindhi,Perso-Arabic,1000,315919,823828,2.6077,0.7626,3.1298,0.0,0.0,1.1557,2.7393,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+tam,Tamil,Tamil,1000,158190,585701,3.7025,0.9701,6.4607,0.0,0.0,1.4541,6.196,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+tel,Telugu,Telugu,1000,179998,697782,3.8766,0.9531,5.4038,0.0,0.0,1.3392,5.1494,🟠 Marginal,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+urd,Urdu,Perso-Arabic,1000,319560,536109,1.6776,0.6939,4.8067,0.0,0.0,0.9321,4.2129,🟡 Good,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16

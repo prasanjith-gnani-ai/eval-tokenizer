@@ -1,0 +1,24 @@
+lang_code,lang_name,script,n_docs,n_words,n_tokens,fertility,continuation_rate,bytes_per_token,unk_rate,vocab_coverage,nsl,avg_token_len,grade,model
+asm,Assamese,Assamese,1000,201352,536591,2.6649,0.8647,6.1043,0.0,0.8125,0.832,2.0422,🟠 Marginal,google/gemma-3-4b-it
+ben,Bengali,Bengali,1000,222386,376898,1.6948,0.7234,10.1364,0.0,0.8125,0.6336,3.2559,🟡 Good,google/gemma-3-4b-it
+brx,Bodo,Devanagari,1000,180480,549738,3.046,0.8635,5.8881,0.0,0.7656,0.9753,1.9495,🟠 Marginal,google/gemma-3-4b-it
+doi,Dogri,Devanagari,54,6775,11211,1.6548,0.4773,6.6913,0.0,0.7656,0.8141,2.7899,🟡 Good,google/gemma-3-4b-it
+eng,English,Latin,1000,263744,351833,1.334,0.2678,4.509,0.0,1.0,0.8577,3.7223,🟢 Excellent,google/gemma-3-4b-it
+gom,Konkani,Devanagari,1000,225010,590407,2.6239,0.8603,5.5249,0.0,0.7656,0.9422,2.2365,🟠 Marginal,google/gemma-3-4b-it
+guj,Gujarati,Gujarati,1000,247691,582734,2.3527,0.8917,6.4207,0.0,0.8352,0.8682,2.0762,🟡 Good,google/gemma-3-4b-it
+hin,Hindi,Devanagari,1000,288123,392510,1.3623,0.4997,9.5059,0.0,0.7656,0.6655,3.0231,🟢 Excellent,google/gemma-3-4b-it
+kan,Kannada,Kannada,1000,168714,526030,3.1179,0.9411,6.8631,0.0,0.8132,1.0908,2.2697,🟠 Marginal,google/gemma-3-4b-it
+kas,Kashmiri,Perso-Arabic,297,59847,102438,1.7117,0.5492,5.387,0.0,0.6719,0.8394,2.5259,🟡 Good,google/gemma-3-4b-it
+mai,Maithili,Devanagari,1000,246983,469258,1.9,0.6915,6.5586,0.0,0.7656,0.8272,2.2509,🟡 Good,google/gemma-3-4b-it
+mal,Malayalam,Malayalam,1000,136745,457420,3.3451,0.9497,7.982,0.0,0.6864,1.1422,2.6288,🟠 Marginal,google/gemma-3-4b-it
+mar,Marathi,Devanagari,1000,216961,423239,1.9508,0.8506,9.2899,0.0,0.7656,0.7284,3.0313,🟡 Good,google/gemma-3-4b-it
+mni,Manipuri,Bengali,1000,242851,742030,3.0555,0.8673,5.2982,0.0,0.8125,0.9068,2.0039,🟠 Marginal,google/gemma-3-4b-it
+nep,Nepali,Devanagari,1000,201427,413281,2.0518,0.8054,8.3882,0.0,0.7656,0.8115,2.6666,🟡 Good,google/gemma-3-4b-it
+ori,Odia,Odia,1000,187103,833028,4.4522,0.9186,3.7974,0.0,0.7582,0.8982,1.2151,🔴 Poor,google/gemma-3-4b-it
+pan,Punjabi,Gurmukhi,1000,283018,774058,2.735,0.8767,4.6869,0.0,0.8625,1.0228,1.5087,🟠 Marginal,google/gemma-3-4b-it
+san,Sanskrit,Devanagari,1000,210223,695076,3.3064,0.7506,6.6398,0.0,0.7656,0.9021,2.1677,🟠 Marginal,google/gemma-3-4b-it
+sat,Santali,Ol Chiki,110,21156,111542,5.2724,0.9253,2.5918,0.0,0.875,1.5166,0.9437,🔴 Poor,google/gemma-3-4b-it
+snd,Sindhi,Perso-Arabic,1000,315919,663014,2.0987,0.7009,3.889,0.0,0.6719,0.9301,1.7611,🟡 Good,google/gemma-3-4b-it
+tam,Tamil,Tamil,1000,158190,385540,2.4372,0.8884,9.815,0.0,0.7222,0.9572,3.2559,🟡 Good,google/gemma-3-4b-it
+tel,Telugu,Telugu,1000,179998,530415,2.9468,0.914,7.1089,0.0,0.65,1.018,2.379,🟠 Marginal,google/gemma-3-4b-it
+urd,Urdu,Perso-Arabic,1000,319560,465361,1.4563,0.5678,5.5375,0.0,0.6719,0.8091,2.4517,🟢 Excellent,google/gemma-3-4b-it

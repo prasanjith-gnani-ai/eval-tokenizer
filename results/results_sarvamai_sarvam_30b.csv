@@ -1,0 +1,24 @@
+lang_code,lang_name,script,n_docs,n_words,n_tokens,fertility,continuation_rate,bytes_per_token,unk_rate,vocab_coverage,nsl,avg_token_len,grade,model
+asm,Assamese,Assamese,1000,201352,537711,2.6705,0.8647,6.0916,0.0,0.8125,0.8337,2.0553,🟠 Marginal,sarvamai/sarvam-30b
+ben,Bengali,Bengali,1000,222386,376909,1.6948,0.7234,10.1361,0.0,0.8125,0.6336,3.2559,🟡 Good,sarvamai/sarvam-30b
+brx,Bodo,Devanagari,1000,180480,549738,3.046,0.8635,5.8881,0.0,0.7656,0.9753,1.9495,🟠 Marginal,sarvamai/sarvam-30b
+doi,Dogri,Devanagari,54,6775,11196,1.6525,0.477,6.7003,0.0,0.7656,0.813,2.7937,🟡 Good,sarvamai/sarvam-30b
+eng,English,Latin,1000,263744,351438,1.3325,0.2668,4.5141,0.0,1.0,0.8567,3.7292,🟢 Excellent,sarvamai/sarvam-30b
+gom,Konkani,Devanagari,1000,225010,596014,2.6488,0.8601,5.473,0.0,0.7656,0.9511,2.288,🟠 Marginal,sarvamai/sarvam-30b
+guj,Gujarati,Gujarati,1000,247691,493456,1.9922,0.7826,7.5824,0.0,0.8681,0.7352,2.4522,🟡 Good,sarvamai/sarvam-30b
+hin,Hindi,Devanagari,1000,288123,392513,1.3623,0.4997,9.5058,0.0,0.7656,0.6655,3.0232,🟢 Excellent,sarvamai/sarvam-30b
+kan,Kannada,Kannada,1000,168714,425145,2.5199,0.8566,8.4916,0.0,0.8352,0.8816,2.8086,🟠 Marginal,sarvamai/sarvam-30b
+kas,Kashmiri,Perso-Arabic,297,59847,102501,1.7127,0.5492,5.3837,0.0,0.6719,0.8399,2.529,🟡 Good,sarvamai/sarvam-30b
+mai,Maithili,Devanagari,1000,246983,469796,1.9021,0.6915,6.551,0.0,0.7656,0.8281,2.2569,🟡 Good,sarvamai/sarvam-30b
+mal,Malayalam,Malayalam,1000,136745,407547,2.9803,0.9062,8.9588,0.0,0.7203,1.0176,2.9503,🟠 Marginal,sarvamai/sarvam-30b
+mar,Marathi,Devanagari,1000,216961,423253,1.9508,0.8506,9.2896,0.0,0.7656,0.7285,3.0314,🟡 Good,sarvamai/sarvam-30b
+mni,Manipuri,Bengali,1000,242851,742030,3.0555,0.8673,5.2982,0.0,0.8125,0.9068,2.0039,🟠 Marginal,sarvamai/sarvam-30b
+nep,Nepali,Devanagari,1000,201427,413284,2.0518,0.8054,8.3881,0.0,0.7656,0.8115,2.6666,🟡 Good,sarvamai/sarvam-30b
+ori,Odia,Odia,1000,187103,356470,1.9052,0.7272,8.8742,0.0,0.9011,0.3844,2.8327,🟡 Good,sarvamai/sarvam-30b
+pan,Punjabi,Gurmukhi,1000,283018,464704,1.642,0.6441,7.8069,0.0,0.975,0.614,2.4989,🟡 Good,sarvamai/sarvam-30b
+san,Sanskrit,Devanagari,1000,210223,695332,3.3076,0.7506,6.6373,0.0,0.7656,0.9024,2.1696,🟠 Marginal,sarvamai/sarvam-30b
+sat,Santali,Ol Chiki,110,21156,42839,2.0249,0.6853,6.7484,0.0,1.0,0.5825,2.1796,🟡 Good,sarvamai/sarvam-30b
+snd,Sindhi,Perso-Arabic,1000,315919,663075,2.0989,0.7009,3.8886,0.0,0.6719,0.9302,1.7614,🟡 Good,sarvamai/sarvam-30b
+tam,Tamil,Tamil,1000,158190,385602,2.4376,0.8884,9.8134,0.0,0.75,0.9573,3.2565,🟡 Good,sarvamai/sarvam-30b
+tel,Telugu,Telugu,1000,179998,469308,2.6073,0.8368,8.0346,0.0,0.74,0.9007,2.6543,🟠 Marginal,sarvamai/sarvam-30b
+urd,Urdu,Perso-Arabic,1000,319560,465361,1.4563,0.5678,5.5375,0.0,0.6719,0.8091,2.4517,🟢 Excellent,sarvamai/sarvam-30b
