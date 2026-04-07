@@ -1,0 +1,80 @@
+{
+  "asm": {
+    "fertility": 2.609,
+    "total_words": 2204770,
+    "total_tokens": 5751586,
+    "docs": 5000
+  },
+  "ben": {
+    "fertility": 2.042,
+    "total_words": 1566586,
+    "total_tokens": 3199711,
+    "docs": 5000
+  },
+  "guj": {
+    "fertility": 1.981,
+    "total_words": 2013610,
+    "total_tokens": 3988825,
+    "docs": 5000
+  },
+  "hin": {
+    "fertility": 1.525,
+    "total_words": 2527792,
+    "total_tokens": 3855348,
+    "docs": 5000
+  },
+  "kan": {
+    "fertility": 2.561,
+    "total_words": 1356597,
+    "total_tokens": 3473812,
+    "docs": 5000
+  },
+  "mal": {
+    "fertility": 2.994,
+    "total_words": 1010264,
+    "total_tokens": 3024901,
+    "docs": 5000
+  },
+  "mar": {
+    "fertility": 2.014,
+    "total_words": 1675970,
+    "total_tokens": 3375591,
+    "docs": 5000
+  },
+  "nep": {
+    "fertility": 1.781,
+    "total_words": 1479251,
+    "total_tokens": 2634488,
+    "docs": 5000
+  },
+  "pan": {
+    "fertility": 1.644,
+    "total_words": 2311318,
+    "total_tokens": 3798675,
+    "docs": 5000
+  },
+  "san": {
+    "fertility": 3.801,
+    "total_words": 3242858,
+    "total_tokens": 12326385,
+    "docs": 2993
+  },
+  "tam": {
+    "fertility": 2.483,
+    "total_words": 1627255,
+    "total_tokens": 4040794,
+    "docs": 5000
+  },
+  "tel": {
+    "fertility": 2.569,
+    "total_words": 1597582,
+    "total_tokens": 4103511,
+    "docs": 5000
+  },
+  "urd": {
+    "fertility": 1.4,
+    "total_words": 3384248,
+    "total_tokens": 4737114,
+    "docs": 5000
+  }
+}

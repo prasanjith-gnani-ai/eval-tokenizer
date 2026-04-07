@@ -36,7 +36,7 @@ import pandas as pd
 from datasets import load_dataset, logging as ds_logging
 from tabulate import tabulate
 from tqdm import tqdm
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, PreTrainedTokenizerFast
 
 warnings.filterwarnings("ignore")
 ds_logging.set_verbosity_error()
@@ -46,7 +46,9 @@ ds_logging.set_verbosity_error()
 # CONFIGURATION  — edit these
 # =============================================================================
 
-MODEL_ID = "google/gemma-4-31B-it"
+#MODEL_ID = "google/gemma-4-31B-it"
+#MODEL_ID = "indic_tokenizer_output/indic_bpe_tokenizer.json"
+MODEL_ID="/Users/prasanjithpasunuti/Desktop/testing/tokenizer/nemotron_indic_tokenizer/tokenizer.json"
 
 # Reference tokenizer to compute NSL against. Use a strong multilingual one.
 REF_MODEL_ID = "google/mt5-base"   # or "ai4bharat/indic-bert"
@@ -393,8 +395,17 @@ def run_evaluation(
     print(f"  Samples    : {n_samples} docs/language")
 
     print("\n  Loading tokenizers...")
-    model_tok = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
-    ref_tok   = AutoTokenizer.from_pretrained(ref_id,   trust_remote_code=True)
+    if os.path.isfile(model_id):
+        print(f"  Loading local tokenizer file: {model_id}")
+        model_tok = PreTrainedTokenizerFast(tokenizer_file=model_id)
+    else:
+        model_tok = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
+
+    if os.path.isfile(ref_id):
+        print(f"  Loading local reference tokenizer file: {ref_id}")
+        ref_tok = PreTrainedTokenizerFast(tokenizer_file=ref_id)
+    else:
+        ref_tok = AutoTokenizer.from_pretrained(ref_id, trust_remote_code=True)
 
     vocab_size = model_tok.vocab_size
     print(f"  Model vocab size : {vocab_size:,}")
